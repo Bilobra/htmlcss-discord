@@ -102,6 +102,7 @@ nav{
 }
 .section_footer_bar{
     height: 111px;
+    max-height: 111px;
     background-color:rgb(35, 39, 42) ;
     border-top:2px solid rgb(97, 98, 100);
     display: flex;
@@ -113,15 +114,21 @@ nav{
     height: 67px;
     max-height: 67px;
     background-color: rgb(127, 255, 212);
-    padding: 10px 336px;
+    /* padding: 10px 336px; */
     justify-content:space-between;
+    padding:0;
 }
-.row_logo{
-    flex-basis:100%;
+.row_logo, .row_button{
+    flex-basis:100px;
+    text-align: center;
     align-self: center;
+    line-height: 40px;
+    border: 2px dashed black;
+    background-color: rgb(255, 182, 193);
+    
 
-}
-.row_button{
-    flex-basis: 100%;
+ }
+/* .row_button{
+    flex-basis: 60px;
     align-self: center;
-}
+} */ 
