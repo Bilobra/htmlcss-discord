@@ -73,3 +73,30 @@ nav{
     height: 895px;
     background-color: rgb(34, 139, 34);
 }
+.section_footer{
+    height: 634px;
+    background-color: rgb(35, 39, 42);
+}
+.col_footer{
+    height: 579px;
+    flex-basis: 210px;
+    background-color: rgb(32, 178, 170);
+    border: 1px dashed white;
+}
+#col-big{
+    flex-basis: 420px;
+    background-color:rgb(240, 128, 128) ;
+    border: 2px dashed black;
+}
+.section_footer_bar{
+    height: 111px;
+    background-color:rgb(35, 39, 42) ;
+    border-top:2px solid rgb(97, 98, 100);
+    display: flex;
+}
+#container_footer{
+    height: 67px;
+    background-color: rgb(127, 255, 212);
+    justify-content: space-between;
+    gap:50px;
+}
