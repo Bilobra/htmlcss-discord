@@ -26,11 +26,18 @@ nav{
     background-color: rgb(218, 165, 32);
     height: 50px;
     align-items:center;
+    text-align: center;
 }
 #menu{
     display:flex;
     flex-direction: row;
     gap:20px;
+    flex-basis: 50%;
+    justify-content: center;
+}
+#logo, #Login{
+    flex-basis: 25%;
+    
 }
 .section{
     background-color:rgb(0, 0, 139);
@@ -38,6 +45,7 @@ nav{
 }
 .container{
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     display:flex;
     justify-content: center;
@@ -100,15 +108,20 @@ nav{
     
 }
 #container_footer{
+    width: 100%;
+    max-width: 1200px;
     height: 67px;
+    max-height: 67px;
     background-color: rgb(127, 255, 212);
-    gap:50px;
     padding: 10px 336px;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 .row_logo{
-    flex-basis: 25%;
+    flex-basis:100%;
+    align-self: center;
+
 }
 .row_button{
-    flex-basis: 25%;
+    flex-basis: 100%;
+    align-self: center;
 }
