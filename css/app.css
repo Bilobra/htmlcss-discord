@@ -227,7 +227,7 @@ nav{
     height: 579px;
     flex-basis: 210px;
     /* background-color: rgb(32, 178, 170); */
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
 }
 #col-big{
     flex-basis: 420px;
@@ -248,7 +248,7 @@ nav{
     max-width: 1200px;
     height: 67px;
     max-height: 67px;
-    background-color: rgb(127, 255, 212);
+    /* background-color: rgb(127, 255, 212); */
     /* padding: 10px 336px; */
     justify-content:space-between;
     padding:0;
@@ -258,8 +258,8 @@ nav{
     text-align: center;
     align-self: center;
     line-height: 40px;
-    border: 2px dashed black;
-    background-color: rgb(255, 182, 193);
+    /* border: 2px dashed black;
+    background-color: rgb(255, 182, 193); */
  }
 
  #padding{
@@ -298,4 +298,28 @@ nav{
  .col_footer p::after{
     content: "\2228";
     padding-left: 15px;
+ }
+
+
+
+.col_footer li{
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+ }
+ .title_list{
+    color: rgb(114, 137, 218);
+    font-size: 20px;
+ }
+
+ .col_footer ul{
+    padding-top: 45px;
+ }
+ .row_button{
+    font-size: 25px;
+    border-radius: 23px;
+    padding: 0px 31px;
+    background-color: rgb(114, 137, 218);
+    color: white;
+    border: rgb(114, 137, 218);
  }
