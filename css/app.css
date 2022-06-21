@@ -63,7 +63,7 @@ nav{
     
 }
 .button-layout{
-    padding: 13px;
+    padding: 13px 40px;
     border-radius: 30px;
     border: white;
     background-color: white;
@@ -91,7 +91,9 @@ nav{
 }
 .mac::before{
     content:"\2193";
-    font-size: 30px;
+    font-size: 15px;
+    padding-right: 5px;
+    vertical-align: 15%;
     
    
 }
@@ -182,7 +184,7 @@ nav{
 }
 .gray p{
     font-size: 20px;
-    padding: 15px 40px;
+    
 }
 #green_square img{
     max-width: 925px;
@@ -213,6 +215,11 @@ nav{
     margin: 0 auto;
     font-size: 30px;
 }
+#p_gray{
+    font-size: 20px;
+    padding: 15px 40px;
+    text-align: left;
+}
 
 
 /* footer */
@@ -223,6 +230,7 @@ nav{
     padding-bottom:50px;
     
 }
+
 .col_footer{
     height: 579px;
     flex-basis: 210px;
@@ -238,7 +246,7 @@ nav{
     height: 111px;
     max-height: 111px;
     background-color:rgb(35, 39, 42) ;
-    border-top:2px solid rgb(97, 98, 100);
+    /* border-top:2px solid rgb(97, 98, 100); */
     display: flex;
     padding-top:40px;
     
@@ -323,3 +331,11 @@ nav{
     color: white;
     border: rgb(114, 137, 218);
  }
+.section_footer::after {
+    border: 5px solid gray;
+    content: "";
+    /* width: 1200px; */
+    max-width: 1200px;
+    
+   
+}
