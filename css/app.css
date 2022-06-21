@@ -302,11 +302,14 @@ nav{
  .col_footer p::before{
     content: url(../img/ita.png);
     padding-right: 15px;
+    display: inline-block;
+   
    
  }
  .col_footer p::after{
     content: "\2228";
     padding-left: 15px;
+    display: inline-block;
  }
 
 
@@ -316,7 +319,7 @@ nav{
     font-size: 20px;
     color: white;
  }
- .title_list{
+li h3{
     color: rgb(114, 137, 218);
     font-size: 20px;
  }
@@ -333,12 +336,12 @@ nav{
     border: rgb(114, 137, 218);
  }
 .section_footer::after {
-    border: 5px solid rgb(127, 44, 44);
+    border: 1px solid rgb(166, 160, 160);
     content: "";
-    display: block;
+    display: inline-block;
     width: 1200px;
     max-width: 100%;
-    height: 30px;
+    margin-left: 218px;
     
    
 }
