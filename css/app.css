@@ -214,6 +214,9 @@ nav{
     font-size: 30px;
 }
 
+
+/* footer */
+
 .section_footer{
     height: 634px;
     background-color: rgb(35, 39, 42);
@@ -223,13 +226,13 @@ nav{
 .col_footer{
     height: 579px;
     flex-basis: 210px;
-    background-color: rgb(32, 178, 170);
+    /* background-color: rgb(32, 178, 170); */
     border: 1px dashed white;
 }
 #col-big{
     flex-basis: 420px;
-    background-color:rgb(240, 128, 128) ;
-    border: 2px dashed black;
+    /* background-color:rgb(240, 128, 128) ; */
+    /* border: 2px dashed black; */
 }
 .section_footer_bar{
     height: 111px;
@@ -262,7 +265,37 @@ nav{
  #padding{
     padding-top:10px;
  }
-/* .row_button{
-    flex-basis: 60px;
-    align-self: center;
-} */ 
+
+ #social_container{
+    display: flex;
+    gap: 25px;
+    /* color: white; */
+    font-size: 25px;
+ }
+#social_container a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+ .col_footer h1{
+ 
+    font-size: 45px;
+    padding-top: 50px;
+    color: rgb(114, 137, 218);
+ }
+
+ .col_footer p{
+    font-size: 20px;
+    line-height: 40px;
+    padding: 20px 0;
+    color:white;
+ }
+ .col_footer p::before{
+    content: url(../img/ita.png);
+    padding-right: 15px;
+   
+ }
+ .col_footer p::after{
+    content: "\2228";
+    padding-left: 15px;
+ }
